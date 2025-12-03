@@ -16,7 +16,7 @@ export function Footer() {
             <div className="flex items-center">
               <div className="flex items-center text-2xl font-bold gap-2">
                 <img
-                  src="icon_MD_quality.png"
+                  src="images/icon_MD_quality.png"
                   alt="MD"
                   className="h-8 w-8 inline-block align-middle"
                 />
