@@ -190,7 +190,7 @@ export function Contact() {
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-[#25D366] transition-colors"
                   >
-                    Clique para conversar
+                    (63) 3217-1080
                   </a>
                 </div>
               </div>

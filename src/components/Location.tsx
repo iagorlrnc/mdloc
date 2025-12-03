@@ -23,7 +23,7 @@ export function Location() {
                 <h3 className="text-2xl font-bold text-[#2b2220] mb-2">
                   Nosso Endereço
                 </h3>
-                <p className="text-gray-700 text-lg">
+                <p className="text-gray-700 text-sm xs:text-base sm:text-lg">
                   Q. 1203 Sul Avenida LO 27, 10
                   <br />
                   Plano Diretor Sul, Palmas - TO

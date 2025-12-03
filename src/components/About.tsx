@@ -7,16 +7,21 @@ export function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold text-[#2b2220] mb-6">
-              Sobre a <span className="text-[#d87934]">MD Locadora</span>
+              Sobre a <span className="text-[#d87934]">MD</span>
+              {""}
+              <span className="text-[#2b2220]">Locadora</span>
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              A MD Locadora é referência em locação de equipamentos para construção civil,
-              oferecendo soluções completas com qualidade, segurança e atendimento especializado.
+              A <span className="text-[#d87934]">MD</span>Locadora é referência
+              em locação de equipamentos para construção civil, oferecendo
+              soluções completas com qualidade, segurança e atendimento
+              especializado.
             </p>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              Nossa frota diversificada e bem mantida garante o sucesso da sua obra.
-              Trabalhamos com equipamentos de última geração, sempre revisados e prontos para uso,
-              proporcionando tranquilidade e eficiência para nossos clientes.
+              Nossa frota diversificada e bem mantida garante o sucesso da sua
+              obra. Trabalhamos com equipamentos de última geração, sempre
+              revisados e prontos para uso, proporcionando tranquilidade e
+              eficiência para nossos clientes.
             </p>
 
             <div className="grid grid-cols-2 gap-6">
@@ -26,7 +31,9 @@ export function About() {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2b2220] mb-1">Segurança</h3>
-                  <p className="text-sm text-gray-600">Equipamentos certificados</p>
+                  <p className="text-sm text-gray-600">
+                    Equipamentos certificados
+                  </p>
                 </div>
               </div>
 
@@ -83,5 +90,5 @@ export function About() {
         </div>
       </div>
     </section>
-  );
+  )
 }
