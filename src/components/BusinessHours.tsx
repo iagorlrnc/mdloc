@@ -7,7 +7,7 @@ export function BusinessHours() {
     { day: "Quarta-feira", time: "07h às 18h", isOpen: true },
     { day: "Quinta-feira", time: "07h às 18h", isOpen: true },
     { day: "Sexta-feira", time: "07h às 18h", isOpen: true },
-    { day: "Sábado", time: "07h às 12h", isOpen: true },
+    { day: "Sábado", time: "07h às 11h", isOpen: true },
     { day: "Domingo", time: "Fechado", isOpen: false },
   ]
 

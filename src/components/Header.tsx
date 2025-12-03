@@ -23,8 +23,17 @@ export function Header() {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId)
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
+      // calcula posição do topo da section considerando a altura do header sticky
+      const headerHeight = headerRef.current?.offsetHeight ?? 0
+      const top =
+        element.getBoundingClientRect().top + window.pageYOffset - headerHeight
+
+      window.scrollTo({ top, behavior: "smooth" })
+      // garante que o menu feche em mobile
       setIsMenuOpen(false)
+      // opcional: ajusta foco para acessibilidade
+      element.setAttribute("tabindex", "-1")
+      ;(element as HTMLElement).focus({ preventScroll: true })
     }
   }
 
