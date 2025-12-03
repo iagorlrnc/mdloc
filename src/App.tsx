@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Features } from './components/Features';
@@ -9,6 +10,12 @@ import { BusinessHours } from './components/BusinessHours';
 import { Footer } from './components/Footer';
 
 function App() {
+  useEffect(() => {
+    // evita restauração automática de scroll e garante topo na atualização
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual'
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [])
+
   return (
     <div className="min-h-screen">
       <Header />
