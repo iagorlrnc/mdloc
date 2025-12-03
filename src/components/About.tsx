@@ -31,7 +31,7 @@ export function About() {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2b2220] mb-1">Segurança</h3>
-                  <p className="text-sm text-gray-600">
+                  <p className="text-sm text-gray-600 hidden sm:block">
                     Equipamentos certificados
                   </p>
                 </div>
@@ -43,7 +43,7 @@ export function About() {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2b2220] mb-1">Qualidade</h3>
-                  <p className="text-sm text-gray-600">Equipamentos premium</p>
+                  <p className="text-sm text-gray-600 hidden sm:block">Equipamentos premium</p>
                 </div>
               </div>
 
@@ -53,7 +53,7 @@ export function About() {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2b2220] mb-1">Agilidade</h3>
-                  <p className="text-sm text-gray-600">Entrega rápida</p>
+                  <p className="text-sm text-gray-600 hidden sm:block">Entrega rápida</p>
                 </div>
               </div>
 
@@ -63,7 +63,7 @@ export function About() {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2b2220] mb-1">Confiança</h3>
-                  <p className="text-sm text-gray-600">Clientes satisfeitos</p>
+                  <p className="text-sm text-gray-600 hidden sm:block">Clientes satisfeitos</p>
                 </div>
               </div>
             </div>
