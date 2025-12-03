@@ -38,7 +38,7 @@ export function Header() {
           <div className="flex items-center">
             <div className="flex items-center text-2xl font-bold gap-2">
               <img
-                src="public/images/icon_MD_quality.png"
+                src="images/icon_MD_quality.png"
                 alt="MD"
                 className="h-12 w-12 inline-block align-middle"
               />
