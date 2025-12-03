@@ -55,7 +55,7 @@ export function Equipment() {
           "Betoneira profissional ideal para obras de médio e grande porte",
         specifications: "Capacidade: 400L, Motor: 2HP, Voltagem: 220V",
         category: "Betoneiras",
-        image_url: "images/betoneira.png",
+        image_url: "./images/betoneira.png",
         is_featured: false,
       },
       {
@@ -65,7 +65,7 @@ export function Equipment() {
           "Aumenta a densidade do solo, eliminando os espaços vazios, tornando mais firme e estável",
         specifications: "Peso: 75kg, Força de impacto: 14kN",
         category: "Compactadores",
-        image_url: "images/compactador.png",
+        image_url: "./images/compactador.png",
         is_featured: false,
       },
       {
@@ -75,7 +75,7 @@ export function Equipment() {
           "Feita de peças modulares que podem ser rapidamente montadas e desmontadas",
         specifications: "Tamanhos: 1x1m ; 1x1.5m",
         category: "Andaimes",
-        image_url: "images/andaimes.png",
+        image_url: "./images/andaimes.png",
         is_featured: false,
       },
       {
@@ -85,7 +85,7 @@ export function Equipment() {
           "Usado para quebrar, cinzelar e perfurar materiais resistentes como concreto, alvenaria e pedra.",
         specifications: "Peso: 30kg, 17kg, 10kg, 5kg",
         category: "Marteletes",
-        image_url: "images/marteletes.png",
+        image_url: "./images/marteletes.png",
         is_featured: false,
       },
       {
@@ -95,7 +95,7 @@ export function Equipment() {
           "Servem para sustentar estruturas como lajes, vigas e pilares enquanto o concreto está endurecendo",
         specifications: "Tamanhos: 1.8 x 3.2m; 2 x 3.6m; 2 x 4m; 3 x 4.5m",
         category: "Escoras",
-        image_url: "images/escoras.png",
+        image_url: "./images/escoras.png",
         is_featured: false,
       },
       {
@@ -105,7 +105,7 @@ export function Equipment() {
           "Usado para remover bolhas de ar, compactando o concreto fresco, garantindo uma estrutura durável.",
         specifications: "Tamanhos: 25mm x 120cm; 36mm x 120cm ",
         category: "Vibrador Portátil",
-        image_url: "images/vibrador_portatil.png",
+        image_url: "./images/vibrador_portatil.png",
         is_featured: false,
       },
     ]
