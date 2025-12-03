@@ -55,7 +55,7 @@ export function Equipment() {
           "Betoneira profissional ideal para obras de médio e grande porte",
         specifications: "Capacidade: 400L, Motor: 2HP, Voltagem: 220V",
         category: "Betoneiras",
-        image_url: "images/betoneira.png",
+        image_url: "mdloc/images/betoneira.png",
         is_featured: false,
       },
       {
