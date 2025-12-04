@@ -105,7 +105,7 @@ export function Header() {
 
           <div className="lg:hidden flex items-center gap-3">
             <button
-              onClick={() => scrollToSection("contato")}
+              onClick={() => scrollToSection("orcamento")}
               className="hidden sm:block bg-[#d87934] hover:bg-[#874234] text-white px-4 py-2 rounded-lg font-semibold transition-all transform hover:scale-105 whitespace-nowrap text-sm"
             >
               Solicitar Orçamento

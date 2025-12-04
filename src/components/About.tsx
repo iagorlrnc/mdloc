@@ -43,7 +43,9 @@ export function About() {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2b2220] mb-1">Qualidade</h3>
-                  <p className="text-sm text-gray-600 hidden sm:block">Equipamentos premium</p>
+                  <p className="text-sm text-gray-600 hidden sm:block">
+                    Equipamentos premium
+                  </p>
                 </div>
               </div>
 
@@ -53,7 +55,9 @@ export function About() {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2b2220] mb-1">Agilidade</h3>
-                  <p className="text-sm text-gray-600 hidden sm:block">Entrega rápida</p>
+                  <p className="text-sm text-gray-600 hidden sm:block">
+                    Entrega rápida
+                  </p>
                 </div>
               </div>
 
@@ -63,7 +67,9 @@ export function About() {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2b2220] mb-1">Confiança</h3>
-                  <p className="text-sm text-gray-600 hidden sm:block">Clientes satisfeitos</p>
+                  <p className="text-sm text-gray-600 hidden sm:block">
+                    Clientes satisfeitos
+                  </p>
                 </div>
               </div>
             </div>
@@ -72,18 +78,18 @@ export function About() {
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400"
+                src="images/md_about2.jpg"
                 alt="Equipamentos MD Locadora"
                 className="rounded-lg shadow-xl w-full h-64 object-cover"
               />
               <img
-                src="https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=400"
+                src="images/md_about1.jpg"
                 alt="Construção"
                 className="rounded-lg shadow-xl w-full h-64 object-cover mt-8"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-[#d87934] text-white p-6 rounded-lg shadow-2xl">
-              <div className="text-4xl font-bold mb-1">13+</div>
+              <div className="text-4xl font-bold mb-1">+13</div>
               <div className="text-sm">Anos de Experiência</div>
             </div>
           </div>

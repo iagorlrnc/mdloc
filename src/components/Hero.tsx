@@ -31,7 +31,7 @@ export function Hero() {
           <div className="hidden md:block">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
               <img
-                src="https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="images/md_hero.jpg"
                 alt="Equipamentos de construção"
                 className="rounded-lg shadow-2xl w-full h-auto"
               />
