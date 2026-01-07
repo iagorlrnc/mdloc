@@ -7,6 +7,7 @@ import { About } from './components/About';
 import { Location } from './components/Location';
 import { Contact } from './components/Contact';
 import { BusinessHours } from './components/BusinessHours';
+import WhatsAppButton from './components/WhatsAppButton';
 import { Footer } from './components/Footer';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   )
 }
