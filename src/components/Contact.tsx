@@ -207,11 +207,13 @@ export function Contact() {
             </a>
           </div>
 
-          
-          <div id="orcamento" className="bg-white p-8 rounded-xl shadow-lg">
-            <h3 className="text-2xl font-bold text-[#2b2220] mb-6">
+          <h3 className="text-2xl font-bold text-[#2b2220] mb-6">
               Solicite um Orçamento
             </h3>
+          <div id="orcamento" className="bg-white p-8 rounded-xl shadow-lg">
+            {/* <h3 className="text-2xl font-bold text-[#2b2220] mb-6">
+              Solicite um Orçamento
+            </h3> */}
 
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
